@@ -1,0 +1,29 @@
+<template>
+  <NavbarTop />
+
+  <!-- 首页轮播图和图书搜索栏 -->
+  <Banner />
+
+  <!-- 快捷入口模块 -->
+  <QuickEntry />
+
+  <!-- 推荐图书模块 -->
+  <BookRecommend />
+
+  <!-- 公告栏模块 -->
+  <Announcement />
+
+  <Footer />
+</template>
+
+<script setup>
+import Banner from '@/modules/home/components/Banner.vue'
+import QuickEntry from '@/modules/home/components/QuickEntry.vue'
+import BookRecommend from '@/modules/home/components/BookRecommend.vue'
+import Announcement from '@/modules/home/components/Announcement.vue'
+import NavbarTop from '@/shared/components/layouts/NavbarTop.vue'
+import Footer from '@/shared/components/layouts/Footer.vue'
+</script>
+
+<style scoped>
+</style>
